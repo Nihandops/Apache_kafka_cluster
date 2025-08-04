@@ -48,11 +48,11 @@ services:
 
     extra_hosts:
 
-      - "zookeeper-1:192.168.10.110"
+      - "zookeeper-1:192.168.10.*.*"
 
-      - "zookeeper-2:192.168.10.111"
+      - "zookeeper-2:192.168.10.*.*"
 
-      - "zookeeper-3:192.168.10.112"
+      - "zookeeper-3:192.168.10.*.*"
  
   # Kafka 1
 
