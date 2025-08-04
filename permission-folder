@@ -1,0 +1,41 @@
+For Server 1 :
+# Create directories
+mkdir -p data/zookeeper-1/data
+mkdir -p data/zookeeper-1/logs
+mkdir -p data/kafka-1
+ 
+# Create myid file with content "1"
+echo "1" > data/zookeeper-1/data/myid
+ 
+# Set permissions
+sudo chown -R 1000:1000 data/
+sudo chmod -R 755 data/
+ 
+ 
+For Server 2 :
+# Create directories
+mkdir -p data/zookeeper-2/data
+mkdir -p data/zookeeper-2/logs
+mkdir -p data/kafka-2
+ 
+# Create myid file with content "2"
+echo "2" > data/zookeeper-2/data/myid
+ 
+# Set permissions
+sudo chown -R 1000:1000 data/
+sudo chmod -R 755 data/
+ 
+ 
+For Server 3 :
+# Create directories
+mkdir -p data/zookeeper-3/data
+mkdir -p data/zookeeper-3/logs
+mkdir -p data/kafka-3
+ 
+# Create myid file with content "3"
+echo "3" > data/zookeeper-3/data/myid
+ 
+# Set permissions
+sudo chown -R 1000:1000 data/
+sudo chmod -R 755 data/
+ 
